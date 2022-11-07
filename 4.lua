@@ -11,7 +11,7 @@ local Workspace = game:GetService("Workspace")
 local CurrentCamera = Workspace.CurrentCamera
 
 local DaHoodSettings = {
-    Prediction = 0.55,
+    Prediction = 0.100,
 
     SilentAim = true,
 
@@ -19,7 +19,7 @@ local DaHoodSettings = {
     BeizerLock = {
         Smoothness = 0.05,
         CurvePoints = {
-            Vector2.new(0.83, 0),
+            Vector2.new(0.55, 0),
             Vector2.new(0.17, 1)
         }
     }
