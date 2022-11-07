@@ -14,7 +14,9 @@ local DaHoodSettings = {
     Prediction = 0.100,
 
     SilentAim = true,
-
+    
+    Aiming.FOV = <number> 15
+    
     AimLock = AimLockSettings,
     BeizerLock = {
         Smoothness = 0.05,
